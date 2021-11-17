@@ -72,6 +72,7 @@ public class UserServiceImpl implements IUserService {
 		User u =  userRepository.findById(Long.parseLong(id)).orElse(null);
 		l.info("user {} retrieved",u);
 		return u;
+		//wasuuuuup
 	}
 
 }
